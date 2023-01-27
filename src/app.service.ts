@@ -10,5 +10,9 @@ export class AppService {
     return 'Something 1';
   }
 
+  displayName(name: string): string {
+    return `Hello ${name}`;
+  }
+
 
 }
